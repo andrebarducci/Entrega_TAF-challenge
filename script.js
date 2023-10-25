@@ -33,12 +33,13 @@ function testTAF(distance, time, gender, pushUps, abs) {
 720 segundos (12 minutos) e maior ou igual a 30 flexoes e maior ou igual a 35 abdominais.
 
 */
+if (gender === 'male' && distance >= 2400 && time <= 720 && pushUps >= 30 && abs >= 35){
+    passed = true;
+  
 
-  if (gender === 'male')
-  if (distance == 24000 && time <= 720 && pushUps >= 30 && abs >= 35){
-
-  } else if (gender === 'female') {
-   if (distance == 24000 && time <= 840 && pushUps >= 20 && abs >= 30){
+  }else if (gender === 'female' && distance >= 2400 && time <= 840 && pushUps >= 20 && abs >= 30){
+    passed = true;
+  
 
    }
 
