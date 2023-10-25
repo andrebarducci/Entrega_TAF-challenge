@@ -1,10 +1,10 @@
 /* Conforme explicado no enunciado adicione as palavras reservadas let ou const nas variaveis */
 
-distance = 25000;
-time = 710;
-gender = "male";
-pushUps = 40;
-abs = 35;
+let distance = 25000;
+let time = 710;
+let gender = "male";
+let pushUps = 40;
+let abs = 35;
 
 /* 
 
@@ -23,11 +23,7 @@ function testTAF(distance, time, gender, pushUps, abs) {
   passed = false;
 
   //Sua logica deve ser inserida aqui:
-  let distance = 24000;
-  let time = 720;
-  let gender = "male";
-  let pushUps = 40;
-  let abs = 35;
+  
 
 /*Se o genero for male, a corrida de 2,4 km deve ser realizada no tempo menor ou igual
 720 segundos (12 minutos) e maior ou igual a 30 flexoes e maior ou igual a 35 abdominais.
